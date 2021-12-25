@@ -1,7 +1,8 @@
 <p>Tell us what you need help with</p>
 
-<ol>
+<ul>
   <% @problems.each do |problem| %>
-    <li><%= problem.capitalize %></li>
+    <button class="problem"><li><%= problem.capitalize %></li></button>
+    <br>
   <% end %>
-</ol>
+</ul>

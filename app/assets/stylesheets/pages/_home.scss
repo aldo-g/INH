@@ -13,5 +13,17 @@ ul {
 }
 
 .button-container {
+  justify-content: center;
+}
 
+.sub-title{
+  text-decoration: underline;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.page-title{
+  display: flex;
 }

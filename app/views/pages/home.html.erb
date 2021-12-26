@@ -1,9 +1,11 @@
 <div class="page-title">
   <h6>Tell us what you need help with</h6>
 </div>
-<ul>
-  <% @problems.each do |problem| %>
-    <button class="problem-button"><li><%= problem.capitalize %></li></button>
-    <br>
-  <% end %>
-</ul>
+<div class="button-container">
+  <ul>
+    <% @problems.each do |problem| %>
+      <button class="problem-button"><li><%= problem.capitalize %></li></button>
+      <br>
+    <% end %>
+  </ul>
+</div>

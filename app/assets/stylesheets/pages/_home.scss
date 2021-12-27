@@ -1,19 +1,16 @@
-ul {
-    list-style-type: none;
-    margin-bottom: 0%;
-}
-
 .problem-button {
   height: 50px;
-  margin-bottom: 20px;
   border-radius: 10px;
   width: 250px;
   font-size: 20px;
   background-color: yellow;
+  margin-bottom: 15px;
 }
 
 .button-container {
+  width: 100%;
   justify-content: center;
+  text-align: center;
 }
 
 .sub-title{
@@ -22,8 +19,4 @@ ul {
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
-}
-
-.page-title{
-  display: flex;
 }
